@@ -4720,3 +4720,64 @@ ul.icons li:hover {
 .curta-item a:hover {
     background-color: #0056b3;
 }
+
+/*artigod*/
+.resumo{
+	text-align: justify;
+	line-height: 1.8;
+    color: #999;
+}
+.artigo {
+    text-align: justify;
+    /*font-size: 16px;*/
+    line-height: 1.8;
+    color: #999;
+	text-indent: 30px;
+}
+
+/* Estilo para a seção de bibliografia */
+.bibliografia {
+    margin-top: 2em;
+    padding: 1em;
+    background-color: #f9f9f9;
+    border-left: 4px solid #333;
+}
+
+.bibliografia h3 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 1em;
+    border-bottom: 2px solid #333;
+    padding-bottom: 0.5em;
+}
+
+.bibliografia ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.bibliografia ul li {
+    margin-bottom: 1.5em;
+    line-height: 1.6;
+    font-size: 0.95em;
+    color: #555;
+}
+
+.bibliografia ul li strong {
+    color: #333;
+    font-weight: 600;
+}
+
+.bibliografia ul li em {
+    font-style: italic;
+}
+
+.bibliografia ul li a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.bibliografia ul li a:hover {
+    text-decoration: underline;
+}
+
