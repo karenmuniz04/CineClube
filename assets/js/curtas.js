@@ -9,8 +9,8 @@ document.addEventListener('DOMContentLoaded', function() {
         // Define os curtas para cada oficina
         const curtas = {
             oficina_III: [
-                { title: 'Diretor: Gustavo Lima', video: 'https://youtu.be/OZuzLHkIIm0'},
-                { title: 'Diretor: Gustavo Lima', video: 'https://youtu.be/0Ouxb2dJNWw?si=1EUnOqSd6k2W1WVA'},
+                { title: 'Professor Gustavo Lima', video: 'https://youtu.be/OZuzLHkIIm0'},
+                { title: 'Professor Gustavo Lima', video: 'https://youtu.be/0Ouxb2dJNWw?si=1EUnOqSd6k2W1WVA'},
                 { title: 'Diretor: Janine Galvão', video: 'https://youtu.be/R4JViKN0LVc?si=9sj03ulKZyqFeoQ9'},
                 { title: 'Diretor: João Eduardo', video: 'https://youtu.be/x5iW7zzl0Ok?si=-07nazQ8m75vR_CA'},
                 { title: 'Diretor: Luciano Reis', video: 'https://youtu.be/z_hFdGyDMxY?si=0_q-4N7kJ-uE_OPd'},
@@ -41,16 +41,16 @@ document.addEventListener('DOMContentLoaded', function() {
                 { title: '', video: 'https://youtu.be/qIPM4pYOH-U?si=aG_zPbFed8YB8vpy'}
             ],
             oficina_VII: [
-                { title: '', video: './videos/oficina_7/1.MOV', image: './images/oficina_7/1.png' },
-                { title: '', video: './videos/oficina_7/2.MOV', image: './images/oficina_7/2.png' },
-                { title: '', video: './videos/oficina_7/4.MOV', image: './images/oficina_7/4.png' },
-                { title: '', video: './videos/oficina_7/5.MOV', image: './images/oficina_7/5.png' },
-                { title: '', video: './videos/oficina_7/6.MOV', image: './images/oficina_7/6.png' },
-                { title: '', video: './videos/oficina_7/7.MOV', image: './images/oficina_7/7.png' },
-                { title: '', video: './videos/oficina_7/8.MOV', image: './images/oficina_7/8.png' },
-                { title: '', video: './videos/oficina_7/9.MOV', image: './images/oficina_7/9.png' },
-                { title: '', video: './videos/oficina_7/10.MOV', image: './images/oficina_7/10.png' },
-                { title: '', video: './videos/oficina_7/11.MOV', image: './images/oficina_7/11.png' },
+                { title: '', video: 'https://youtu.be/QFEHbWXSAQA?si=m6IyIw7-tNxRNKrG', image: './images/oficina_7/1.png' },
+                { title: '', video: 'https://youtu.be/kQo_Ht6is28?si=py5oSLjqR_Htklb5', image: './images/oficina_7/2.png' },
+                { title: '', video: 'https://youtu.be/ykR4G60FNxA?si=Dwmsc38MrnzEW3Yr', image: './images/oficina_7/4.png' },
+                { title: '', video: 'https://youtu.be/xEEtc4nLSBc?si=ohkbz4se-wVgjSex', image: './images/oficina_7/5.png' },
+                { title: '', video: 'https://youtu.be/dAifqtGUvTE?si=6BQXa-5169aX18Dq', image: './images/oficina_7/6.png' },
+                { title: '', video: 'https://youtu.be/vPWpOQqaisE?si=Vf2ClEDHeNMGBlpR', image: './images/oficina_7/7.png' },
+                { title: '', video: 'https://youtu.be/cp6L4gqHApA?si=qoQ8JEnya7CC3Taa', image: './images/oficina_7/8.png' },
+                { title: '', video: 'https://youtu.be/OO4NS0xjKIA?si=ru9907US3zSjqU7q', image: './images/oficina_7/9.png' },
+                { title: '', video: 'https://youtu.be/pYsyL45O_W4?si=W97D2KmcAg557WCN', image: './images/oficina_7/10.png' },
+                { title: '', video: 'https://youtu.be/pY6pyiRGgS0?si=-0WLs0NUl77n8Ncs', image: './images/oficina_7/11.png' },
                 { title: '', video: './videos/oficina_7/12.MOV', image: './images/oficina_7/12.png' },
                 { title: '', video: './videos/oficina_7/13.MOV', image: './images/oficina_7/13.png' },
                 { title: '', video: './videos/oficina_7/14.MOV', image: './images/oficina_7/14.png' },
