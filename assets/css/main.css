@@ -2503,7 +2503,7 @@ ul.icons li:hover {
 		input[type="button"].small,
 		button.small,
 		.button.small {
-			font-size: 0.8em;
+			font-size: 0.5em;
 		}
 
 		input[type="submit"].large,
@@ -4780,4 +4780,173 @@ ul.icons li:hover {
 .bibliografia ul li a:hover {
     text-decoration: underline;
 }
+
+/* ============================= */
+/* SEÇÃO DO VÍDEO PROMOCIONAL    */
+/* ============================= */
+#video-promocional {
+    padding: 4em 2em;
+    text-align: center;
+    background-color: #f5f5f5; /* ou mantenha transparente, se preferir */
+}
+
+#video-promocional h2 {
+    font-size: 2em;
+    font-weight: 700;
+    margin-bottom: 0.5em;
+    color: #333;
+}
+
+#video-promocional p {
+    max-width: 800px;
+    margin: 0 auto 2em auto;
+    line-height: 1.6;
+    color: #555;
+    font-size: 1.1em;
+}
+
+.video-container video {
+    width: 100%;
+    max-width: 900px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
+    outline: none;
+}
+
+.video-container video:focus {
+    outline: none;
+}
+
+/* ============================= */
+/* SEÇÃO DE EXIBIÇÕES / GALERIA */
+/* ============================= */
+#exibicoes {
+    padding: 4em 2em;
+    text-align: center;
+}
+
+#exibicoes .major h2 {
+    font-size: 2.2em;
+    margin-bottom: 0.4em;
+}
+
+#exibicoes .major p {
+    max-width: 800px;
+    margin: 0 auto 3em auto;
+    color: #666;
+    font-size: 1.05em;
+}
+
+/* Grade dos cards */
+.exibicoes-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2em;
+}
+
+/* Estilo de cada card */
+.exibicao-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    padding: 2em 1.5em;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    transition: all 0.3s ease;
+}
+
+.exibicao-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.exibicao-card .data {
+    display: block;
+    font-size: 0.9em;
+    color: #999;
+    margin-bottom: 0.5em;
+}
+
+.exibicao-card h3 {
+    font-size: 1.3em;
+    font-weight: 700;
+    margin-bottom: 1em;
+    color: #333;
+}
+
+.exibicao-card .imagem img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 1em;
+}
+
+.exibicao-card p {
+    color: #555;
+    font-size: 1em;
+    line-height: 1.5;
+    margin-bottom: 1.5em;
+}
+
+/* Botão */
+.exibicao-card .button {
+    font-size: 0.9em;
+    padding: 0.7em 1.4em;
+}
+
+/* ====== GALERIA DE EXIBIÇÕES ====== */
+
+.galeria-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.galeria-grid .foto {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.galeria-grid .foto img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.4s ease;
+}
+
+.galeria-grid .foto:hover {
+    transform: scale(1.03);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.galeria-grid .foto:hover img {
+    transform: scale(1.1);
+}
+
+/* Títulos */
+.inner h3 {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 0.3rem;
+}
+
+.inner p {
+    font-size: 0.95rem;
+    line-height: 1.7;
+    color: #777;
+}
+
+/* Espaçamento entre seções */
+section.wrapper {
+    padding: 3rem 4rem;
+}
+
+@media (max-width: 768px) {
+    section.wrapper {
+        padding: 2rem 1.5rem;
+    }
+}
+
 
