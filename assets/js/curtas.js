@@ -29,7 +29,6 @@ document.addEventListener('DOMContentLoaded', function() {
                 { title: 'Diretora: Rosângela Reinaldo', video: 'https://youtu.be/bN7hYWov5y0?si=_gxxExa6s92Pwll7'}
             ],
             oficina_V: [
-                { title: 'Diretor: Eudes', video: 'https://youtu.be/hSIQuIgEjuo?si=eU-hbYcZfS57rwe_'},
                 { title: 'Diretor: Eudes', video: 'https://youtu.be/s9NI4Txe6PY?si=WIJGmezl1-Ans7sR'}
             ],
             oficina_VI: [
@@ -51,18 +50,6 @@ document.addEventListener('DOMContentLoaded', function() {
                 { title: '', video: 'https://youtu.be/OO4NS0xjKIA?si=ru9907US3zSjqU7q', image: './images/oficina_7/9.png' },
                 { title: '', video: 'https://youtu.be/pYsyL45O_W4?si=W97D2KmcAg557WCN', image: './images/oficina_7/10.png' },
                 { title: '', video: 'https://youtu.be/pY6pyiRGgS0?si=-0WLs0NUl77n8Ncs', image: './images/oficina_7/11.png' },
-                { title: '', video: './videos/oficina_7/12.MOV', image: './images/oficina_7/12.png' },
-                { title: '', video: './videos/oficina_7/13.MOV', image: './images/oficina_7/13.png' },
-                { title: '', video: './videos/oficina_7/14.MOV', image: './images/oficina_7/14.png' },
-                { title: '', video: './videos/oficina_7/15.MOV', image: './images/oficina_7/15.png' },
-                { title: '', video: './videos/oficina_7/16.MOV', image: './images/oficina_7/16.png' },
-                { title: '', video: './videos/oficina_7/17.MOV', image: './images/oficina_7/17.png' },
-                { title: '', video: './videos/oficina_7/18.MOV', image: './images/oficina_7/18.png' },
-                { title: '', video: './videos/oficina_7/19.MOV', image: './images/oficina_7/19.png' },
-                { title: '', video: './videos/oficina_7/20.MOV', image: './images/oficina_7/20.png' },
-                { title: '', video: './videos/oficina_7/21.MOV', image: './images/oficina_7/21.png' },
-                { title: '', video: './videos/oficina_7/22.MOV', image: './images/oficina_7/22.png' },
-                { title: '', video: './videos/oficina_7/23.MOV', image: './images/oficina_7/23.png' },
             ]
         };
 
